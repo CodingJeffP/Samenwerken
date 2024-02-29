@@ -4,3 +4,33 @@
     --primary-color: #06f9b7 ;
     --secondary-color: #f8fafa;
 }
+
+
+
+footer form{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    
+}
+footer form input{
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    color: rgb(253, 253, 253);
+}
+footer form button{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid black;
+}
+footer form button i{
+    margin-right: 10px;
+    font-size: 10px;
+    
+}
+.formulier{
+    width: 600px;
+}
