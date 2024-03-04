@@ -1,36 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --primary-color: #06f9b7 ;
+    --primary-color: #06f9b7;
     --secondary-color: #f8fafa;
 }
 
+footer {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
 
-
-footer form{
+footer form {
     display: flex;
     flex-direction: column;
-    align-items: space-around;
-    
+    width: 650px;
+    margin: 0px auto;
+
+
 }
-footer form input{
+
+footer form input {
     border: none;
     border-bottom: 1px solid var(--primary-color);
     color: rgb(253, 253, 253);
+    margin-bottom: 20px;
 }
-footer form button{
+
+footer form button {
     margin-top: 50px;
     padding: 10px;
     background-color: white;
     border-radius: 3px;
     font-family: "Poppins", sans-serif;
     border: 2px solid black;
+    width: 150px;
 }
-footer form button i{
+
+footer form button i {
     margin-right: 10px;
     font-size: 10px;
-    
+
 }
-.formulier{
-    width: 600px;
+
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.contact p {
+    font-style: bold;
+    font-weight: 600;
+}
+
+.contact p b {
+    color: var(--primary-color);
+}
+
+.social {
+    display: flex;
+}
+
+.social p {
+    padding-right: 10px;
+}
+
+.social i {
+    padding-top: 4px;
+    padding-right: 7px;
 }
