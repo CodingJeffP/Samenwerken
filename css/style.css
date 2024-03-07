@@ -6,7 +6,6 @@
     --text-color: #2f3031;
 }
 
-
 footer {
     padding-top: 100px;
     padding-bottom: 30px;
@@ -17,8 +16,6 @@ footer form {
     flex-direction: column;
     width: 650px;
     margin: 0px auto;
-
-
 }
 
 footer form input {
@@ -43,8 +40,6 @@ footer form button i {
     font-size: 10px;
 
 }
-
-
 
 .contact {
     display: flex;
@@ -296,4 +291,74 @@ strong {
     background-color: #06f9b800;
     height: 250px;
     transform: translate(10000%, -130%);
+}
+
+/* Services */
+.our-services {
+    height: 100vh;
+    background-color: rgb(241, 241, 241);
+    margin-top: -200px;
+}
+
+.our-services h1 {
+    padding-top: 80px;
+    font-size: 60px;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.our-services h1 .titel-services {
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.services-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 80px;
+    gap: 100px;
+}
+
+.services-icons i {
+    margin-left: -50px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.services-icons .portfolio-services i {
+    font-size: 10px;
+    margin-right: 10px;
+    transform: translate(70px, 30px);
+}
+
+.services-icons .horizontale-streep {
+    width: 50px;
+    height: 1px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    border: none;
+    transform: translate(150px, 180px);
+}
+
+.portfolio-services button {
+    display: flex;
+    transform: translate(0px, -20px);
+    color: var(--text-color);
+    background-color: transparent;
+    border: var(--text-color) solid 2px;
+    border-radius: 5%;
+    font-weight: 600;
+    padding: 10px 40px;
+    font-weight: 600;
+}
+
+.tussen-services-en-portfolio {
+    position: absolute;
+    border-left: var(--primary-color) solid;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    background-color: #06f9b800;
+    height: 250px;
+    transform: translate(800%, -50%);
 }
