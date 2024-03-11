@@ -6,6 +6,10 @@
     --text-color: #2f3031;
 }
 
+.portfolio {
+    margin-top: 50px;
+}
+
 .portfolioContent {
     padding-top: 80px;
 }
@@ -26,7 +30,8 @@
 }
 
 .testimonial {
-    margin-top: 500px;
+    margin-top:
+        100px;
 }
 
 .testimonial-content {
@@ -132,7 +137,7 @@
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 750px;
+    margin-top: 150px;
 }
 
 .hello-banner h3,
@@ -178,7 +183,7 @@
 footer {
     padding-top: 100px;
     padding-bottom: 30px;
-    margin-top: 360px;
+    margin-top: 50px;
 }
 
 footer form {
