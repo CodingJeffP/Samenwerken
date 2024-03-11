@@ -6,10 +6,101 @@
     --text-color: #2f3031;
 }
 
+.testimonial {
+    margin-top: 370px;
+}
+
+.testimonial-content {
+    position: relative;
+    display: flex;
+}
+
+.links {
+    background-image: url('../afbeeldingen/man.jpg');
+    background-size: cover;
+    background-color: #06f9b7;
+
+    /* Voeg een positionele context toe */
+}
+
+
+
+
+.rechts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.findmore {
+    display: flex;
+    flex-direction: column;
+    background-color: #06f9b7;
+    padding: 30px;
+}
+
+.cirkels {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us {
+    margin-top: 350px;
+}
+
+.hello-banner {
+    position: relative;
+    /* Om ervoor te zorgen dat het overlay-element relatief is aan het .hello-banner element */
+    background-image: url('../afbeeldingen/pexels-ready-made-3921712.jpg');
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 750px;
+}
+
+.hello-banner h3,
+.hello-banner p,
+.hello-banner button {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.hello-banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello-banner button {
+
+    color: white;
+    background-color: transparent;
+    border: var(--primary-color) solid 3px;
+    border-radius: 5%;
+    font-weight: 600;
+    padding: 10px 40px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hello-banner button i {
+    margin-right: 10px;
+    font-size: 10px;
+
+}
+
+.hello-banner-content p b,
+.hello-banner h3 b {
+    color: var(--primary-color);
+}
 
 footer {
     padding-top: 100px;
     padding-bottom: 30px;
+    margin-top: 360px;
 }
 
 footer form {
