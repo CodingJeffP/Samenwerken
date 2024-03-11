@@ -6,6 +6,25 @@
     --text-color: #2f3031;
 }
 
+.portfolioContent {
+    padding-top: 80px;
+}
+
+.tabs ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.tabs ul li {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-style: bold;
+    font-family: "Poppins", sans-serif;
+}
+
 .testimonial {
     margin-top: 370px;
 }
@@ -151,7 +170,8 @@
 }
 
 .hello-banner-content p b,
-.hello-banner h3 b {
+.hello-banner h3 b,
+.portfolio-content h1 b {
     color: var(--primary-color);
 }
 
@@ -360,7 +380,8 @@ strong {
     margin-top: 350px;
 }
 
-.about-us h1 {
+.about-us h1,
+.portfolio-content h1 {
     font-size: 60px;
     font-weight: 800;
     color: var(--text-color);
